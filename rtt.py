@@ -129,6 +129,7 @@ root.title("Right Triangle Trig")
 root.geometry("500x500")
 logo = PhotoImage(file = os.path.dirname(__file__) + "\\data\\logo.png")
 root.iconphoto(False, logo)
+print("starting...")
 
 app = Application(master=root)
 app.mainloop()
